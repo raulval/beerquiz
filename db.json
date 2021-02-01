@@ -1,41 +1,65 @@
 {
-  "bg": "https://i2.wp.com/css-tricks.com/wp-content/uploads/2017/06/css-is-awesome-scaled.jpg?resize=1536%2C1208&ssl=1",
-  "title": "ReactQuiz",
-  "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+  "logo": "https://i.ibb.co/mt6FjrH/LogoQuiz.png",
+  "bg": "https://i.ibb.co/s280hPS/People-making-a-toast-with-beers.jpg",
+  "title": "BeerQuiz",
+  "description": "Será que você sabe sobre o líquido sagrado que tanto bebem? A santa cerveja!",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
-      "description": "Essa é pra aquecer",
+      "image": "https://media1.giphy.com/media/frSEWQ4ePiGa7ClvN9/giphy.gif",
+      "title": "Qual estilo de cerveja artesanal é o mais popular?",
+      "description": "Cuidado em!",
       "answer": 2,
       "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
+        "Pilsen",
+        "Stout",
+        "IPA"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
+      "image": "https://media3.giphy.com/media/h8NdYZJGH1ZRe/giphy.gif",
+      "title": "Qual desses países é conhecido pela revolução da cerveja artesanal?",
+      "description": "E agora? Você sabe?",
+      "answer": 1,
+      "alternatives": [
+        "Brasil",
+        "Estados Unidos",
+        "Alemanha"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/QsyPRpG6WVR6SYfBVw/giphy.gif",
+      "title": "Toda cerveja artesanal é puro malte?",
       "answer": 0,
       "alternatives": [
-        "background: linear-gradient(#e66465, #9198e5);",
-        "background: gradient(#e66465, #9198e5);"
+        "Não, existem tanto cervejas artesanais puro malte quanto com outros ingredientes",
+        "Não, nenhuma cerveja artesanal é puro malte",
+        "Sim, pois é isso que diferencia uma artesanal de uma industrial"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/zrj0yPfw3kGTS/giphy.gif",
+      "title": "Por qual motivo o lúpulo começou a ser usado na cerveja?",
+      "description": "Pra fechar com chave de ouro!",
+      "answer": 2,
+      "alternatives": [
+        "Por suas características amargor ",
+        "Por suas características medicinais",
+        "Por suas características aromáticas e de amargor e por ser um conservante natural"
       ]
     }
   ],
   "external": [
-    ""
+    "https://aluraquiz-css.omariosouto.vercel.app/",
+    "https://aluraquiz-devsoutinho.omariosouto.vercel.app/",
+    "https://mr-robot-quiz-alura.bryanauta.vercel.app/"
   ],
   "theme": {
     "colors": {
-      "primary": "#0d47a1",
-      "secondary": "#29b6f6",
-      "mainBg": "#171B35",
+      "primary": "#222222",
+      "secondary": "#e89c3f",
+      "mainBg": "#213f4e",
       "contrastText": "#FFFFFF",
-      "wrong": "#FF5722",
+      "wrong": "#d32f2f",
       "success": "#4CAF50"
     },
     "borderRadius": "4px"
