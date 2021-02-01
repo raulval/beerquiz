@@ -13,6 +13,7 @@ Este projeto foi criado durante a Imersão React com Next.js da [Alura](https://
 
 ## Deploy 📲
 O deploy do projeto - completamente funcional - foi realizado através da Vercel. 
+
 [BeerQuiz](https://beerquiz.raulval.vercel.app/)
 
 ## O que vi durante a Imersão
