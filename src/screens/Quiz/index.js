@@ -17,6 +17,7 @@ function ResultWidget({ results }) {
   return (
     <Widget>
       <Widget.Header>
+        <BackLinkArrow href="/" />
         Tela de Resultado:
       </Widget.Header>
 
@@ -208,7 +209,7 @@ export default function QuizPage({ externalQuestions, externalBg }) {
   return (
     <QuizBackground backgroundImage={bg}>
       <QuizContainer>
-        <QuizLogo src={db.logo} />
+        <QuizLogo href="/" src={db.logo} />
         {screenState === screenStates.QUIZ && (
           <QuestionWidget
             question={question}
